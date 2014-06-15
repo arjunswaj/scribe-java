@@ -5,9 +5,9 @@ import org.scribe.model.*;
 import org.scribe.utils.*;
 
 /**
- * LinkApi open platform api based on OAuth 2.0.
+ * LinksApi open platform api based on OAuth 2.0.
  */
-public class LinkApi extends DefaultApi20
+public class LinksApi extends DefaultApi20
 {
 
   private static final String AUTHORIZE_URL = "http://localhost:3000/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code";

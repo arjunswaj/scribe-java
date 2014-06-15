@@ -18,7 +18,7 @@ public class LinksExample
     String apiKey = "8801f72043f447d0d0dc70bedee0c169d408591c9fab600ca02b4f93b667e8fc";
     String apiSecret = "fb6e2fe2b55f9d41fe57fbf7b515332ab42a44a7ebdc49f5952aa57fc6b86f70";
     OAuthService service = new ServiceBuilder()
-        .provider(LinkApi.class)
+        .provider(LinksApi.class)
         .apiKey(apiKey)
         .apiSecret(apiSecret)
         .callback("urn:ietf:wg:oauth:2.0:oob")        
