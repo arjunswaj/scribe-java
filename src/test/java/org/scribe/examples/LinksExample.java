@@ -9,7 +9,7 @@ import java.util.*;
 public class LinksExample
 {
   private static final String NETWORK_NAME = "Links";
-  private static final String PROTECTED_RESOURCE_URL = "http://localhost:3000/api/bookmarks";
+  private static final String PROTECTED_RESOURCE_URL = "http://links.t.proxylocal.com/api/bookmarks";
   private static final Token EMPTY_TOKEN = null;
 
   public static void main(String[] args)

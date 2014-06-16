@@ -10,7 +10,7 @@ import org.scribe.utils.*;
 public class LinksApi extends DefaultApi20
 {
 
-  private static final String AUTHORIZE_URL = "http://localhost:3000/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code";
+  private static final String AUTHORIZE_URL = "http://links.t.proxylocal.com/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code";
   private static final String SCOPED_AUTHORIZE_URL = AUTHORIZE_URL + "&scope=%s";
 
   @Override
@@ -22,7 +22,7 @@ public class LinksApi extends DefaultApi20
   @Override
   public String getAccessTokenEndpoint()
   {
-    return "http://localhost:3000/oauth/token?grant_type=authorization_code";
+    return "http://links.t.proxylocal.com/oauth/token?grant_type=authorization_code";
   }
 
   @Override
