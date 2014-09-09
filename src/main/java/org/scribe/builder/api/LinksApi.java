@@ -8,7 +8,7 @@ import org.scribe.utils.*;
  * LinksApi open platform api based on OAuth 2.0.
  */
 public class LinksApi extends DefaultApi20 {
-  private static String BASE_URL = "http://w.fieldsofview.in:3000";
+  public static String BASE_URL = "http://w.fieldsofview.in:3000";
   
   private static final String AUTHORIZE_URL = BASE_URL
       + "/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code";
